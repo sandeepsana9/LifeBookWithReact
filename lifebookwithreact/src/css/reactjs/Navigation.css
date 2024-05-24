@@ -1,0 +1,28 @@
+.side-navbar {
+    width: 20%;
+    ul{
+        display: block;
+    }
+    li{
+        width: 100%;
+        background-color: rgb(255, 255, 255);
+        box-shadow: 4px 4px 2px black;
+        border: 2px solid black;
+    }
+    a{
+        color: black;
+        position: relative;
+    }
+    a:hover {
+        background-color: var(--main-color);
+        color: #fff;
+    }
+    li:hover{
+        background-color: var(--main-color);
+        box-shadow: 4px 4px 2px white;
+        border: 2px solid white;
+    }
+}
+.d-flex{
+    display: flex;
+}
